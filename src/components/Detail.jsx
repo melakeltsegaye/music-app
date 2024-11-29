@@ -53,7 +53,7 @@ const Detail = () => {
    padding: 0;
 }`}>
         {image ? (
-          <div css={css`@media screen and (max-width: 1000px) {
+          <div css={css`display: flex; gap: 40px; @media screen and (max-width: 1000px) {
             display: flex;
    flex-direction: column; width: 100%
 }`}>
